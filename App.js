@@ -71,6 +71,11 @@ export default class App extends Component {
             underlineColorAndroid="transparent"
             placeholder="Type something nice"
             onChangeText={text => this.setState({typing: text})}
+            keyboardType='default'
+            returnKeyType='send'
+            onSubmitEditing={
+              this.sendMessage.bind(this)
+            }
           />
           <TouchableOpacity onPress={this.sendMessage.bind(this)}>
             <Text style={styles.send}>Send</Text>
