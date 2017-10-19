@@ -91,6 +91,7 @@ const styles = StyleSheet.create({
     padding: 20,
     borderBottomWidth: 1,
     borderBottomColor: '#eee',
+    flexDirection: 'row'
   },
   message: {
     fontSize: 18,
