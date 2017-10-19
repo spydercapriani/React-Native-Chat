@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
   },
   send: {
     alignSelf: 'center',
-    color: 'lightseagreen',
+    color: 'blue',
     fontSize: 16,
     fontWeight: 'bold',
     padding: 20,
