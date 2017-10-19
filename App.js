@@ -16,9 +16,9 @@ import {
 import ReversedFlatList from 'react-native-reversed-flat-list';
 import Header from './src/Header';
 
-const NAME = 'Creator'
+const NAME = 'Anonymous'
 const CHANNEL = 'React Native Chat'
-const AVATAR = 'https://pbs.twimg.com/profile_images/806501058679816192/ZHFWIF-z_400x400.jpg';
+const AVATAR = 'https://maxcdn.icons8.com/Share/icon/ios7/Cinema//anonymous_mask1600.png';
 
 export default class App extends Component {
   state = {
